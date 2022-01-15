@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/thxu.iml" filepath="$PROJECT_DIR$/.idea/thxu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-auth/thxu-auth.iml" filepath="$PROJECT_DIR$/thxu-auth/thxu-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-cloud/thxu-cloud.iml" filepath="$PROJECT_DIR$/thxu-cloud/thxu-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-common/thxu-common.iml" filepath="$PROJECT_DIR$/thxu-common/thxu-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-gateway/thxu-gateway.iml" filepath="$PROJECT_DIR$/thxu-gateway/thxu-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-monitor/thxu-monitor.iml" filepath="$PROJECT_DIR$/thxu-monitor/thxu-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-monitor/thxu-monitor-admin/thxu-monitor-admin.iml" filepath="$PROJECT_DIR$/thxu-monitor/thxu-monitor-admin/thxu-monitor-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-register/thxu-register.iml" filepath="$PROJECT_DIR$/thxu-register/thxu-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-server/thxu-server.iml" filepath="$PROJECT_DIR$/thxu-server/thxu-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-server/thxu-server-system/thxu-server-system.iml" filepath="$PROJECT_DIR$/thxu-server/thxu-server-system/thxu-server-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thxu-server/thxu-server-test/thxu-server-test.iml" filepath="$PROJECT_DIR$/thxu-server/thxu-server-test/thxu-server-test.iml" />
+    </modules>
+  </component>
+</project>

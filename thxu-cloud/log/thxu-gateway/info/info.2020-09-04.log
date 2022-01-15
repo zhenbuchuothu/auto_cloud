@@ -1,0 +1,171 @@
+2020-09-04 19:50:52 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ac6ce252] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 19:50:53 INFO  [THXU-Gateway,,,] main com.kk.thxu.gateway.ThxuGatewayApplication No active profile set, falling back to default profiles: default
+2020-09-04 19:50:54 INFO  [THXU-Gateway,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-04 19:50:54 INFO  [THXU-Gateway,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-04 19:50:54 INFO  [THXU-Gateway,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-09-04 19:50:54 INFO  [THXU-Gateway,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=f224cf15-ce94-3713-b0cb-3e9a4d382af9
+2020-09-04 19:50:54 INFO  [THXU-Gateway,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ac6ce252] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 19:50:55 INFO  [THXU-Gateway,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8301 (http)
+2020-09-04 19:50:55 INFO  [THXU-Gateway,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8301"]
+2020-09-04 19:50:55 INFO  [THXU-Gateway,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-04 19:50:55 INFO  [THXU-Gateway,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-09-04 19:50:55 INFO  [THXU-Gateway,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-04 19:50:55 INFO  [THXU-Gateway,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1792 ms
+2020-09-04 19:50:55 INFO  [THXU-Gateway,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-04 19:50:55 INFO  [THXU-Gateway,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4099209b
+2020-09-04 19:50:57 INFO  [THXU-Gateway,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-09-04 19:50:57 INFO  [THXU-Gateway,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-09-04 19:50:57 INFO  [THXU-Gateway,,,] main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: df688bb0-e6d3-42b0-9535-a79a1b1d2de3
+
+2020-09-04 19:50:57 INFO  [THXU-Gateway,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c7c0e36, org.springframework.security.web.context.SecurityContextPersistenceFilter@289f15e9, org.springframework.security.web.header.HeaderWriterFilter@1e56bc9b, org.springframework.security.web.authentication.logout.LogoutFilter@4409cae6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6af87130, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27e44e9c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@307cf964, org.springframework.security.web.session.SessionManagementFilter@27ab206, org.springframework.security.web.access.ExceptionTranslationFilter@482f7af0]
+2020-09-04 19:50:57 INFO  [THXU-Gateway,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-04 19:50:57 INFO  [THXU-Gateway,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-04 19:50:58 INFO  [THXU-Gateway,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-09-04 19:50:59 INFO  [THXU-Gateway,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 23 endpoint(s) beneath base path '/actuator'
+2020-09-04 19:50:59 INFO  [THXU-Gateway,,,] main org.springframework.cloud.netflix.zuul.ZuulFilterInitializer Starting filter initializer
+2020-09-04 19:50:59 INFO  [THXU-Gateway,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2020-09-04 19:50:59 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2020-09-04 19:50:59 INFO  [THXU-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2020-09-04 19:50:59 INFO  [THXU-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2020-09-04 19:50:59 INFO  [THXU-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2020-09-04 19:50:59 INFO  [THXU-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Application is null : false
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient The response status is 200
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1599220260935 with initial instances count: 1
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application THXU-GATEWAY with eureka with status UP
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1599220260942, current=UP, previous=STARTING]
+2020-09-04 19:51:00 INFO  [THXU-Gateway,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_THXU-GATEWAY/DESKTOP-40N1SAQ:THXU-Gateway:8301: registering service...
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8301"]
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_THXU-GATEWAY/DESKTOP-40N1SAQ:THXU-Gateway:8301 - registration status: 204
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8301 (http) with context path ''
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8301
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.kk.thxu.gateway.ThxuGatewayApplication Started ThxuGatewayApplication in 9.644 seconds (JVM running for 10.763)
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-THXU-Auth
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.BaseLoadBalancer Client: THXU-Auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client THXU-Auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Auth,current list of Servers=[DESKTOP-40N1SAQ:8101],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-40N1SAQ:8101;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1a85e86e
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-THXU-Server-System
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.BaseLoadBalancer Client: THXU-Server-System instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client THXU-Server-System initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@4177d422
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Server-Test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-THXU-Server-Test
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.BaseLoadBalancer Client: THXU-Server-Test instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-09-04 19:51:01 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client THXU-Server-Test initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@36349e29
+2020-09-04 19:51:02 INFO  [THXU-Gateway,,,] RMI TCP Connection(9)-192.168.10.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-04 19:51:02 INFO  [THXU-Gateway,,,] RMI TCP Connection(9)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-04 19:51:02 INFO  [THXU-Gateway,,,] RMI TCP Connection(9)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 12 ms
+2020-09-04 19:51:02 INFO  [THXU-Gateway,,,] parallel-1 io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-09-04 19:51:02 INFO  [THXU-Gateway,,,] parallel-1 io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-09-04 19:51:02 INFO  [THXU-Gateway,,,] PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 19:51:29 INFO  [THXU-Gateway,,,] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e40379f3f50e
+2020-09-04 19:51:32 INFO  [THXU-Gateway,,,] PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 19:52:04 INFO  [THXU-Gateway,,,] http-nio-8301-exec-6 org.apache.tomcat.util.http.parser.Cookie A cookie header was received [1573207869,1573641009,1573737076; JSESSIONID=node01me1xe3wlj53867qbmuuaomao8.node0] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-09-04 19:52:04 INFO  [THXU-Gateway,,,] http-nio-8301-exec-6 com.kk.thxu.gateway.filter.ThxuGatewayRequestFilter 请求URI：/auth/captcha，HTTP Method：GET，请求IP：0:0:0:0:0:0:0:1，ServerId：THXU-Auth
+2020-09-04 19:52:24 INFO  [THXU-Gateway,,,] http-nio-8301-exec-10 com.kk.thxu.gateway.filter.ThxuGatewayRequestFilter 请求URI：/auth/oauth/token，HTTP Method：POST，请求IP：0:0:0:0:0:0:0:1，ServerId：THXU-Auth
+2020-09-04 19:56:00 INFO  [THXU-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 20:01:00 INFO  [THXU-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 21:22:18 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a4e0b41b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 21:22:19 INFO  [THXU-Gateway,,,] main com.kk.thxu.gateway.ThxuGatewayApplication No active profile set, falling back to default profiles: default
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=f224cf15-ce94-3713-b0cb-3e9a4d382af9
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a4e0b41b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8301 (http)
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8301"]
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1422 ms
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-04 21:22:20 INFO  [THXU-Gateway,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@59edb4f5
+2020-09-04 21:22:22 INFO  [THXU-Gateway,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-09-04 21:22:22 INFO  [THXU-Gateway,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-09-04 21:22:22 INFO  [THXU-Gateway,,,] main org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration 
+
+Using generated security password: 2a905976-e779-4977-94d3-fc22deab3ea8
+
+2020-09-04 21:22:22 INFO  [THXU-Gateway,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@788e3702, org.springframework.security.web.context.SecurityContextPersistenceFilter@79ca7bea, org.springframework.security.web.header.HeaderWriterFilter@55a0f011, org.springframework.security.web.authentication.logout.LogoutFilter@7e191fda, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bc9ca97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27f71195, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d25e878, org.springframework.security.web.session.SessionManagementFilter@4d4c1ba9, org.springframework.security.web.access.ExceptionTranslationFilter@454bcbbf]
+2020-09-04 21:22:23 INFO  [THXU-Gateway,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-04 21:22:23 INFO  [THXU-Gateway,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-04 21:22:24 INFO  [THXU-Gateway,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-09-04 21:22:24 INFO  [THXU-Gateway,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 23 endpoint(s) beneath base path '/actuator'
+2020-09-04 21:22:24 INFO  [THXU-Gateway,,,] main org.springframework.cloud.netflix.zuul.ZuulFilterInitializer Starting filter initializer
+2020-09-04 21:22:24 INFO  [THXU-Gateway,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2020-09-04 21:22:24 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2020-09-04 21:22:24 INFO  [THXU-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2020-09-04 21:22:24 INFO  [THXU-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2020-09-04 21:22:24 INFO  [THXU-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2020-09-04 21:22:24 INFO  [THXU-Gateway,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Application is null : false
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient The response status is 200
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 20
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1599225745867 with initial instances count: 1
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application THXU-GATEWAY with eureka with status UP
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1599225745871, current=UP, previous=STARTING]
+2020-09-04 21:22:25 INFO  [THXU-Gateway,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_THXU-GATEWAY/DESKTOP-40N1SAQ:THXU-Gateway:8301: registering service...
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8301"]
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_THXU-GATEWAY/DESKTOP-40N1SAQ:THXU-Gateway:8301 - registration status: 204
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8301 (http) with context path ''
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8301
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.kk.thxu.gateway.ThxuGatewayApplication Started ThxuGatewayApplication in 8.091 seconds (JVM running for 8.914)
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-THXU-Auth
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.BaseLoadBalancer Client: THXU-Auth instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Auth,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client THXU-Auth initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Auth,current list of Servers=[DESKTOP-40N1SAQ:8101],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-40N1SAQ:8101;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@57e57dc5
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-THXU-Server-System
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.BaseLoadBalancer Client: THXU-Server-System instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client THXU-Server-System initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Server-System,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1cca3e8c
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] RMI TCP Connection(13)-192.168.10.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] RMI TCP Connection(13)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Server-Test.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.util.concurrent.ShutdownEnabledTimer Shutdown hook installed for: NFLoadBalancer-PingTimer-THXU-Server-Test
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.BaseLoadBalancer Client: THXU-Server-Test instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] RMI TCP Connection(13)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 12 ms
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer Using serverListUpdater PollingServerListUpdater
+2020-09-04 21:22:26 INFO  [THXU-Gateway,,,] main com.netflix.loadbalancer.DynamicServerListLoadBalancer DynamicServerListLoadBalancer for client THXU-Server-Test initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=THXU-Server-Test,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@10830d50
+2020-09-04 21:22:27 INFO  [THXU-Gateway,,,] PollingServerListUpdater-0 com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Auth.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 21:22:27 INFO  [THXU-Gateway,,,] parallel-1 io.lettuce.core.EpollProvider Starting without optional epoll library
+2020-09-04 21:22:27 INFO  [THXU-Gateway,,,] parallel-1 io.lettuce.core.KqueueProvider Starting without optional kqueue library
+2020-09-04 21:22:54 INFO  [THXU-Gateway,,,] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as e40379f3f50e
+2020-09-04 21:23:27 INFO  [THXU-Gateway,,,] PollingServerListUpdater-1 com.netflix.config.ChainedDynamicProperty Flipping property: THXU-Server-System.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-09-04 21:27:25 INFO  [THXU-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 21:32:25 INFO  [THXU-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 21:37:25 INFO  [THXU-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 21:42:25 INFO  [THXU-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 21:47:25 INFO  [THXU-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 21:52:25 INFO  [THXU-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2020-09-04 21:57:25 INFO  [THXU-Gateway,,,] AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration

@@ -1,0 +1,345 @@
+2020-08-17 12:11:13 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$564e109e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-17 12:11:14 INFO  [THXU-Register,,,] main com.kk.thxu.register.ThxuRegisterApplication No active profile set, falling back to default profiles: default
+2020-08-17 12:11:14 INFO  [THXU-Register,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=b8e1e3a1-580b-3d15-9538-08980edbe250
+2020-08-17 12:11:14 INFO  [THXU-Register,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$564e109e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-17 12:11:15 INFO  [THXU-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-08-17 12:11:15 INFO  [THXU-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-08-17 12:11:15 INFO  [THXU-Register,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-08-17 12:11:15 INFO  [THXU-Register,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-08-17 12:11:15 INFO  [THXU-Register,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring embedded WebApplicationContext
+2020-08-17 12:11:15 INFO  [THXU-Register,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 962 ms
+2020-08-17 12:11:15 INFO  [THXU-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-17 12:11:15 INFO  [THXU-Register,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4cb2918c
+2020-08-17 12:11:16 INFO  [THXU-Register,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-08-17 12:11:16 INFO  [THXU-Register,,,] main com.sun.jersey.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-08-17 12:11:16 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2020-08-17 12:11:16 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2020-08-17 12:11:16 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2020-08-17 12:11:16 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2020-08-17 12:11:16 INFO  [THXU-Register,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5da6b13d, org.springframework.security.web.context.SecurityContextPersistenceFilter@a21c74, org.springframework.security.web.header.HeaderWriterFilter@2edb2f8b, org.springframework.security.web.csrf.CsrfFilter@7f6b7426, org.springframework.security.web.authentication.logout.LogoutFilter@eaf8427, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a136383, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@591f6f83, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3dc39459, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e67cfe1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fb8dc01, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@150d6eaf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b16de91, org.springframework.security.web.session.SessionManagementFilter@21dea711, org.springframework.security.web.access.ExceptionTranslationFilter@307c59ea, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cc1bf20]
+2020-08-17 12:11:16 INFO  [THXU-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-17 12:11:16 INFO  [THXU-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-17 12:11:17 INFO  [THXU-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-08-17 12:11:17 INFO  [THXU-Register,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2020-08-17 12:11:17 INFO  [THXU-Register,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2020-08-17 12:11:17 INFO  [THXU-Register,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2020-08-17 12:11:17 INFO  [THXU-Register,,,] main com.netflix.discovery.DiscoveryClient Client configured to neither register nor query for data.
+2020-08-17 12:11:17 INFO  [THXU-Register,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1597637477967 with initial instances count: 0
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initializing ...
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] main com.netflix.eureka.registry.AbstractInstanceRegistry Finished initializing remote region registries. All known remote regions: []
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initialized
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application THXU-REGISTER with eureka with status UP
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] Thread-21 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration..
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] Thread-21 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] Thread-21 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka environment value eureka.environment is not set, defaulting to test
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] Thread-21 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap isAws returned false
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] Thread-21 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Initialized server context
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] Thread-21 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Got 1 instances from neighboring DS node
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] Thread-21 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Renew threshold is: 1
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] Thread-21 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Changing status to UP
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] Thread-21 org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration Started Eureka Server
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path '/register'
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8001
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] main com.kk.thxu.register.ThxuRegisterApplication Started ThxuRegisterApplication in 5.525 seconds (JVM running for 6.313)
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] RMI TCP Connection(1)-192.168.10.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] RMI TCP Connection(1)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-08-17 12:11:18 INFO  [THXU-Register,,,] RMI TCP Connection(1)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 8 ms
+2020-08-17 12:11:26 INFO  [THXU-Register,,,] http-nio-8001-exec-2 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-AUTH/DESKTOP-40N1SAQ:THXU-Auth:8101 with status UP (replication=false)
+2020-08-17 12:11:51 INFO  [THXU-Register,,,] http-nio-8001-exec-3 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-GATEWAY/DESKTOP-40N1SAQ:THXU-Gateway:8301 with status UP (replication=false)
+2020-08-17 12:11:52 INFO  [THXU-Register,,,] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as d7595c27c68a
+2020-08-17 12:12:08 INFO  [THXU-Register,,,] http-nio-8001-exec-10 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-SERVER-SYSTEM/DESKTOP-40N1SAQ:THXU-Server-System:8201 with status UP (replication=false)
+2020-08-17 12:12:10 INFO  [THXU-Register,,,] http-nio-8001-exec-3 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-SERVER-TEST/DESKTOP-40N1SAQ:THXU-Server-Test:8202 with status UP (replication=false)
+2020-08-17 12:12:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:13:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 12:14:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 12:15:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:16:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:17:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:18:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:19:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:20:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:21:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 12:22:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:23:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:24:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:25:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:26:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 12:26:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:27:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:28:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:29:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:30:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:31:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:32:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:33:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:34:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:35:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:36:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 12:37:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:38:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:39:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:40:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:41:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 12:41:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:42:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:43:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 12:44:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:45:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:46:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:47:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 12:48:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:49:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:50:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:51:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:52:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:53:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:54:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:55:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:56:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 12:56:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:57:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:58:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 12:59:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:00:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:01:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:02:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:03:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:04:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:05:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:06:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 13:07:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:08:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:09:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:10:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:11:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 13:11:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:12:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:13:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:14:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:15:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:16:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:17:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:18:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:19:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:20:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:21:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:22:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:23:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:24:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:25:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:26:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 13:26:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:27:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:28:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:29:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:30:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:31:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:32:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:33:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:34:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:35:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:36:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:37:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:38:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:39:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:40:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:41:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 13:41:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:42:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 13:43:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:44:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:45:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 728ms
+2020-08-17 13:46:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:47:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:48:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:49:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:50:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:51:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:52:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:53:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:54:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:55:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:56:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 13:56:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:57:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:58:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 13:59:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 14:00:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:01:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:02:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:03:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:04:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:05:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:06:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:07:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:08:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:09:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:10:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:11:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 14:11:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:12:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:13:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:14:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:15:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 14:16:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:17:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:18:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:19:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:20:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:21:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:22:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:23:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:24:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:25:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:26:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 14:26:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:27:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:28:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:29:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 14:30:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:31:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:32:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:33:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:34:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:35:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 14:36:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:37:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:38:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:39:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:40:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 14:41:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 14:41:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:42:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:43:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:44:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:45:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:46:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1205ms
+2020-08-17 14:47:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:48:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:49:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:50:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:51:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:52:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:53:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:54:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:55:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:56:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 14:56:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:57:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:58:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 14:59:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:00:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:01:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 15:02:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:03:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:04:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:05:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:06:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:07:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:08:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:09:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:10:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:11:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 15:11:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:12:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 15:13:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:14:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:15:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:16:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:17:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:18:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:19:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:20:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:21:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:22:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:23:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:24:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:25:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:26:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 15:26:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:27:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 15:28:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:29:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:30:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:31:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:32:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:33:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:34:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:35:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:36:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:37:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:38:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:39:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:40:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:41:18 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 15:41:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:42:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:43:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:44:18 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:45:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:46:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:47:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:48:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:49:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:50:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:51:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:52:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:53:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:54:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 15:55:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:56:19 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 15:56:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 15:57:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 15:58:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 15:59:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:00:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 16:01:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:02:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:03:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:04:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:05:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:06:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:07:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:08:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:09:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:10:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:11:19 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 16:11:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:12:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:13:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:14:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-08-17 16:15:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:16:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:17:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:18:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:19:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:20:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:21:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:22:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:23:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:24:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:25:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:26:19 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 16:26:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:27:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:28:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:29:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:30:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:31:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:32:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:33:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:34:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:35:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:36:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:37:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:38:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:39:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:40:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:41:19 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 8
+2020-08-17 16:41:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:42:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:43:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:44:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-08-17 16:45:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 187ms
+2020-08-17 16:46:20 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms

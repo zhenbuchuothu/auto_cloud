@@ -1,0 +1,160 @@
+2020-09-04 19:50:39 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$99b3d963] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 19:50:39 INFO  [THXU-Register,,,] main com.kk.thxu.register.ThxuRegisterApplication No active profile set, falling back to default profiles: default
+2020-09-04 19:50:40 INFO  [THXU-Register,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=b8e1e3a1-580b-3d15-9538-08980edbe250
+2020-09-04 19:50:41 INFO  [THXU-Register,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$99b3d963] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 19:50:41 INFO  [THXU-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-09-04 19:50:41 INFO  [THXU-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-09-04 19:50:41 INFO  [THXU-Register,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-04 19:50:41 INFO  [THXU-Register,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-09-04 19:50:41 INFO  [THXU-Register,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring embedded WebApplicationContext
+2020-09-04 19:50:41 INFO  [THXU-Register,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1807 ms
+2020-09-04 19:50:41 INFO  [THXU-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-04 19:50:41 INFO  [THXU-Register,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@71c17a57
+2020-09-04 19:50:42 INFO  [THXU-Register,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-09-04 19:50:42 INFO  [THXU-Register,,,] main com.sun.jersey.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-09-04 19:50:42 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2020-09-04 19:50:42 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2020-09-04 19:50:42 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2020-09-04 19:50:42 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2020-09-04 19:50:43 INFO  [THXU-Register,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3855d9b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@36551e97, org.springframework.security.web.header.HeaderWriterFilter@197ce367, org.springframework.security.web.csrf.CsrfFilter@dc59ec2, org.springframework.security.web.authentication.logout.LogoutFilter@781dac73, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1815577b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5dcf0772, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@39f42d0e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4c04216f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16d41725, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56c0a61e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47a3d56a, org.springframework.security.web.session.SessionManagementFilter@65036e8d, org.springframework.security.web.access.ExceptionTranslationFilter@6b16de91, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@147e0734]
+2020-09-04 19:50:43 INFO  [THXU-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-04 19:50:43 INFO  [THXU-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-04 19:50:43 INFO  [THXU-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main com.netflix.discovery.DiscoveryClient Client configured to neither register nor query for data.
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1599220244642 with initial instances count: 0
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initializing ...
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main com.netflix.eureka.registry.AbstractInstanceRegistry Finished initializing remote region registries. All known remote regions: []
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initialized
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application THXU-REGISTER with eureka with status UP
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] Thread-23 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration..
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] Thread-23 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] Thread-23 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka environment value eureka.environment is not set, defaulting to test
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] Thread-23 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap isAws returned false
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] Thread-23 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Initialized server context
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] Thread-23 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Got 1 instances from neighboring DS node
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] Thread-23 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Renew threshold is: 1
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] Thread-23 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Changing status to UP
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] Thread-23 org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration Started Eureka Server
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path '/register'
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8001
+2020-09-04 19:50:44 INFO  [THXU-Register,,,] main com.kk.thxu.register.ThxuRegisterApplication Started ThxuRegisterApplication in 7.169 seconds (JVM running for 8.367)
+2020-09-04 19:50:45 INFO  [THXU-Register,,,] RMI TCP Connection(5)-192.168.10.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-04 19:50:45 INFO  [THXU-Register,,,] RMI TCP Connection(5)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-04 19:50:45 INFO  [THXU-Register,,,] RMI TCP Connection(5)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 6 ms
+2020-09-04 19:50:59 INFO  [THXU-Register,,,] http-nio-8001-exec-2 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-AUTH/DESKTOP-40N1SAQ:THXU-Auth:8101 with status UP (replication=false)
+2020-09-04 19:51:01 INFO  [THXU-Register,,,] http-nio-8001-exec-7 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-GATEWAY/DESKTOP-40N1SAQ:THXU-Gateway:8301 with status UP (replication=false)
+2020-09-04 19:51:13 INFO  [THXU-Register,,,] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as d7595c27c68a
+2020-09-04 19:51:20 INFO  [THXU-Register,,,] http-nio-8001-exec-3 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-SERVER-SYSTEM/DESKTOP-40N1SAQ:THXU-Server-System:8201 with status UP (replication=false)
+2020-09-04 19:51:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 19:52:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 19:53:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 19:54:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 19:55:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 19:56:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 19:57:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 19:58:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 19:59:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 20:00:37 INFO  [THXU-Register,,,] http-nio-8001-exec-5 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-SERVER-SYSTEM/DESKTOP-40N1SAQ:THXU-Server-System:8201 with status UP (replication=false)
+2020-09-04 20:00:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 20:01:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-09-04 20:02:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-09-04 20:03:44 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:17:18 INFO  [springAppName_IS_UNDEFINED,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e3da736] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 21:17:18 INFO  [THXU-Register,,,] main com.kk.thxu.register.ThxuRegisterApplication No active profile set, falling back to default profiles: default
+2020-09-04 21:17:19 INFO  [THXU-Register,,,] main org.springframework.cloud.context.scope.GenericScope BeanFactory id=b8e1e3a1-580b-3d15-9538-08980edbe250
+2020-09-04 21:17:19 INFO  [THXU-Register,,,] main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8e3da736] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-04 21:17:19 INFO  [THXU-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8001 (http)
+2020-09-04 21:17:19 INFO  [THXU-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8001"]
+2020-09-04 21:17:19 INFO  [THXU-Register,,,] main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2020-09-04 21:17:19 INFO  [THXU-Register,,,] main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-09-04 21:17:20 INFO  [THXU-Register,,,] main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring embedded WebApplicationContext
+2020-09-04 21:17:20 INFO  [THXU-Register,,,] main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1128 ms
+2020-09-04 21:17:20 INFO  [THXU-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-04 21:17:20 INFO  [THXU-Register,,,] main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3af7d855
+2020-09-04 21:17:21 INFO  [THXU-Register,,,] main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2020-09-04 21:17:21 INFO  [THXU-Register,,,] main com.sun.jersey.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-09-04 21:17:21 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2020-09-04 21:17:21 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2020-09-04 21:17:21 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2020-09-04 21:17:21 INFO  [THXU-Register,,,] main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2020-09-04 21:17:21 INFO  [THXU-Register,,,] main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@701c223a, org.springframework.security.web.context.SecurityContextPersistenceFilter@6537ac, org.springframework.security.web.header.HeaderWriterFilter@1192c925, org.springframework.security.web.csrf.CsrfFilter@4af7dd6a, org.springframework.security.web.authentication.logout.LogoutFilter@25567581, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@41fc0084, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@38c460e8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@550c973e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@237b2852, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ddffa6c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a136383, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@161d95c6, org.springframework.security.web.session.SessionManagementFilter@24691c5, org.springframework.security.web.access.ExceptionTranslationFilter@60807fd9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1544ded3]
+2020-09-04 21:17:21 INFO  [THXU-Register,,,] main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-04 21:17:22 INFO  [THXU-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-04 21:17:22 INFO  [THXU-Register,,,] main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2020-09-04 21:17:22 INFO  [THXU-Register,,,] main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 20 endpoint(s) beneath base path '/actuator'
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main com.netflix.discovery.DiscoveryClient Client configured to neither register nor query for data.
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1599225443396 with initial instances count: 0
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initializing ...
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main com.netflix.eureka.registry.AbstractInstanceRegistry Finished initializing remote region registries. All known remote regions: []
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main com.netflix.eureka.DefaultEurekaServerContext Initialized
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application THXU-REGISTER with eureka with status UP
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] Thread-18 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration..
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] Thread-18 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] Thread-18 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka environment value eureka.environment is not set, defaulting to test
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8001"]
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] Thread-18 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap isAws returned false
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] Thread-18 org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Initialized server context
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] Thread-18 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Got 1 instances from neighboring DS node
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] Thread-18 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Renew threshold is: 1
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] Thread-18 com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Changing status to UP
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] Thread-18 org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration Started Eureka Server
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8001 (http) with context path '/register'
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8001
+2020-09-04 21:17:23 INFO  [THXU-Register,,,] main com.kk.thxu.register.ThxuRegisterApplication Started ThxuRegisterApplication in 6.209 seconds (JVM running for 6.957)
+2020-09-04 21:17:24 INFO  [THXU-Register,,,] RMI TCP Connection(9)-192.168.10.1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/register] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-04 21:17:24 INFO  [THXU-Register,,,] RMI TCP Connection(9)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2020-09-04 21:17:24 INFO  [THXU-Register,,,] RMI TCP Connection(9)-192.168.10.1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 4 ms
+2020-09-04 21:17:28 INFO  [THXU-Register,,,] http-nio-8001-exec-4 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-AUTH/DESKTOP-40N1SAQ:THXU-Auth:8101 with status UP (replication=false)
+2020-09-04 21:18:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:19:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms
+2020-09-04 21:20:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:21:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 8ms
+2020-09-04 21:22:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:22:26 INFO  [THXU-Register,,,] http-nio-8001-exec-6 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-GATEWAY/DESKTOP-40N1SAQ:THXU-Gateway:8301 with status UP (replication=false)
+2020-09-04 21:22:35 INFO  [THXU-Register,,,] http-nio-8001-exec-2 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-SERVER-SYSTEM/DESKTOP-40N1SAQ:THXU-Server-System:8201 with status UP (replication=false)
+2020-09-04 21:22:37 INFO  [THXU-Register,,,] registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as d7595c27c68a
+2020-09-04 21:23:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:24:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms
+2020-09-04 21:24:31 INFO  [THXU-Register,,,] http-nio-8001-exec-2 com.netflix.eureka.registry.AbstractInstanceRegistry Registered instance THXU-SERVER-SYSTEM/DESKTOP-40N1SAQ:THXU-Server-System:8201 with status UP (replication=false)
+2020-09-04 21:25:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms
+2020-09-04 21:26:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-09-04 21:27:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms
+2020-09-04 21:28:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 6ms
+2020-09-04 21:29:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms
+2020-09-04 21:30:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms
+2020-09-04 21:31:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:32:23 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 6
+2020-09-04 21:32:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:33:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:34:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:35:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:36:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-09-04 21:37:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:38:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:39:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:40:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:41:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-09-04 21:42:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms
+2020-09-04 21:43:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 1ms
+2020-09-04 21:44:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:45:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms
+2020-09-04 21:46:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:47:23 INFO  [THXU-Register,,,] ReplicaAwareInstanceRegistry - RenewalThresholdUpdater com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl Current renewal threshold is : 6
+2020-09-04 21:47:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:48:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 2ms
+2020-09-04 21:49:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:50:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 3ms
+2020-09-04 21:51:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:52:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:53:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:54:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:55:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:56:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:57:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms
+2020-09-04 21:58:23 INFO  [THXU-Register,,,] Eureka-EvictionTimer com.netflix.eureka.registry.AbstractInstanceRegistry Running the evict task with compensationTime 0ms

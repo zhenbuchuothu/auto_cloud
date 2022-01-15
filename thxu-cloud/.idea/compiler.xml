@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thxu-monitor-admin" />
+        <module name="thxu-gateway" />
+        <module name="thxu-server-system" />
+        <module name="thxu-auth" />
+        <module name="thxu-server-test" />
+        <module name="thux-register" />
+        <module name="thxu-common" />
+        <module name="thxu-register" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="thux-register" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="thux-register" options="-parameters" />
+      <module name="thxu-auth" options="-parameters" />
+      <module name="thxu-common" options="-parameters" />
+      <module name="thxu-gateway" options="-parameters" />
+      <module name="thxu-monitor" options="-parameters" />
+      <module name="thxu-monitor-admin" options="-parameters" />
+      <module name="thxu-register" options="-parameters" />
+      <module name="thxu-server" options="-parameters" />
+      <module name="thxu-server-system" options="-parameters" />
+      <module name="thxu-server-test" options="-parameters" />
+    </option>
+  </component>
+</project>

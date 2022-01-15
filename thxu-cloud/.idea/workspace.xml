@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d97e2a8a-d341-4b86-b23b-c02921145859" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_repository\maven_repository" />
+        <option name="mavenHome" value="D:\apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectId" id="1coHrP2mPJ6rjSAK58YJfVJ8MC4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="556" />
+    <property name="RequestMappingsPanelWidth1" value="556" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.39770114" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-workspace\thxu\thxu-auth\src\main\resources" />
+      <recent name="D:\idea-workspace\thxu\thxu-gateway\src\main\resources" />
+      <recent name="D:\idea-workspace\thxu\thxu-monitor\thxu-monitor-admin\src\main\resources" />
+      <recent name="D:\idea-workspace\thxu\thxu-register\src\main\resources" />
+      <recent name="D:\idea-workspace\thxu\thxu-server\thxu-server-test\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ThxuAuthApplication">
+    <configuration name="ThxuAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="thxu-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.thxu.auth.ThxuAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThxuGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="thxu-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.thxu.gateway.ThxuGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThxuMonitorAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="thxu-monitor-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.thxu.monitor.admin.ThxuMonitorAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThxuRegisterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="thxu-register" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.thxu.register.ThxuRegisterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThxuServerSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="thxu-server-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.thxu.server.system.ThxuServerSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThxuServerTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="thxu-server-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.thxu.server.test.ThxuServerTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d97e2a8a-d341-4b86-b23b-c02921145859" name="Default Changelist" comment="" />
+      <created>1591188223250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591188223250</updated>
+      <workItem from="1591188225025" duration="1349000" />
+      <workItem from="1591262873531" duration="4000" />
+      <workItem from="1591272083938" duration="422000" />
+      <workItem from="1591272508324" duration="110000" />
+      <workItem from="1591272620505" duration="133000" />
+      <workItem from="1591272755568" duration="1044000" />
+      <workItem from="1591273802226" duration="28000" />
+      <workItem from="1591273831550" duration="3395000" />
+      <workItem from="1591329106542" duration="2275000" />
+      <workItem from="1591351440745" duration="6441000" />
+      <workItem from="1591530473088" duration="1779000" />
+      <workItem from="1591618501732" duration="4894000" />
+      <workItem from="1591688632557" duration="1684000" />
+      <workItem from="1591696689494" duration="4595000" />
+      <workItem from="1591785194593" duration="5797000" />
+      <workItem from="1591792760395" duration="1806000" />
+      <workItem from="1591840381229" duration="2964000" />
+      <workItem from="1592646335113" duration="6881000" />
+      <workItem from="1592986042896" duration="2089000" />
+      <workItem from="1593334642058" duration="7543000" />
+      <workItem from="1593400156325" duration="12473000" />
+      <workItem from="1593434416990" duration="4296000" />
+      <workItem from="1593515634338" duration="3918000" />
+      <workItem from="1593522446067" duration="3014000" />
+      <workItem from="1593684602311" duration="4396000" />
+      <workItem from="1593762949456" duration="11519000" />
+      <workItem from="1593834771879" duration="46000" />
+      <workItem from="1593856165458" duration="27000" />
+      <workItem from="1593856378527" duration="1192000" />
+      <workItem from="1595566237071" duration="4849000" />
+      <workItem from="1595576260843" duration="671000" />
+      <workItem from="1595920316566" duration="9104000" />
+      <workItem from="1596004675740" duration="1521000" />
+      <workItem from="1596514351155" duration="14385000" />
+      <workItem from="1596700881677" duration="5891000" />
+      <workItem from="1596790190787" duration="3114000" />
+      <workItem from="1597208596977" duration="9175000" />
+      <workItem from="1597473211900" duration="1588000" />
+      <workItem from="1597572400071" duration="2679000" />
+      <workItem from="1597628945979" duration="4780000" />
+      <workItem from="1598085301140" duration="1705000" />
+      <workItem from="1598790650347" duration="541000" />
+      <workItem from="1598877486063" duration="1655000" />
+      <workItem from="1598955945099" duration="621000" />
+      <workItem from="1599030480231" duration="2734000" />
+      <workItem from="1599049433124" duration="736000" />
+      <workItem from="1599220097365" duration="955000" />
+      <workItem from="1599225428590" duration="2223000" />
+      <workItem from="1599273835756" duration="950000" />
+      <workItem from="1599301038132" duration="12000" />
+      <workItem from="1600344789036" duration="3474000" />
+      <workItem from="1600422042903" duration="277000" />
+      <workItem from="1600424200979" duration="609000" />
+      <workItem from="1600678551916" duration="41000" />
+      <workItem from="1600678891099" duration="8000" />
+      <workItem from="1600696129454" duration="156000" />
+      <workItem from="1600696595319" duration="167000" />
+      <workItem from="1600739558810" duration="3881000" />
+      <workItem from="1600755753417" duration="12000" />
+      <workItem from="1600757442056" duration="520000" />
+      <workItem from="1600942644687" duration="1419000" />
+      <workItem from="1601028595435" duration="14000" />
+      <workItem from="1601363178138" duration="9000" />
+      <workItem from="1602416041047" duration="714000" />
+      <workItem from="1602416765613" duration="227000" />
+      <workItem from="1602417073375" duration="192000" />
+      <workItem from="1602475021169" duration="14000" />
+      <workItem from="1618396462890" duration="78000" />
+      <workItem from="1618401210187" duration="688000" />
+      <workItem from="1620975488255" duration="60000" />
+      <workItem from="1620976954153" duration="329000" />
+      <workItem from="1620977296030" duration="49000" />
+      <workItem from="1620977361505" duration="15000" />
+      <workItem from="1620977412295" duration="34000" />
+      <workItem from="1622299242197" duration="187000" />
+      <workItem from="1622299492631" duration="81000" />
+      <workItem from="1623579128940" duration="26000" />
+      <workItem from="1623579168659" duration="16000" />
+      <workItem from="1624580623322" duration="9000" />
+      <workItem from="1625323885514" duration="8000" />
+      <workItem from="1640848505892" duration="34000" />
+      <workItem from="1640848557979" duration="175000" />
+      <workItem from="1641975049388" duration="34000" />
+      <workItem from="1641975103190" duration="54000" />
+      <workItem from="1641975180270" duration="34000" />
+      <workItem from="1641976133190" duration="11000" />
+      <workItem from="1641976363174" duration="279000" />
+      <workItem from="1641976653205" duration="216000" />
+      <workItem from="1641976894250" duration="937000" />
+      <workItem from="1641993059578" duration="85000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

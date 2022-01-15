@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thxu-monitor-admin" />
+        <module name="thxu-gateway" />
+        <module name="thxu-server-system" />
+        <module name="thxu-auth" />
+        <module name="thxu-server-test" />
+        <module name="thxu-common" />
+        <module name="thxu-register" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="thxu-auth" target="1.5" />
+      <module name="thxu-cloud" target="1.5" />
+      <module name="thxu-common" target="1.5" />
+      <module name="thxu-gateway" target="1.5" />
+      <module name="thxu-monitor" target="1.5" />
+      <module name="thxu-monitor-admin" target="1.5" />
+      <module name="thxu-register" target="1.5" />
+      <module name="thxu-server" target="1.5" />
+      <module name="thxu-server-system" target="1.5" />
+      <module name="thxu-server-test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
